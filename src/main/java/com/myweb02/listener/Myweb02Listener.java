@@ -4,7 +4,6 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-import org.apache.tomcat.dbcp.dbcp.BasicDataSource;
 
 /**
  * 自定义监听器
@@ -18,7 +17,7 @@ public class Myweb02Listener implements ServletContextListener {
 	public void contextInitialized(ServletContextEvent sce) {
 		System.out.println("监听器初始化！");
 		ServletContext context = sce.getServletContext();
-		BasicDataSource dataSource = new BasicDataSource();
+		//BasicDataSource dataSource = new BasicDataSource();
 		//dataSource.set
 	}
 
