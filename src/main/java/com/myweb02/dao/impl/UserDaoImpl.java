@@ -8,7 +8,12 @@ import org.hibernate.SessionFactory;
 import com.myweb02.dao.BaseDao;
 import com.myweb02.dao.UserDao;
 import com.myweb02.entity.User;
-
+/**
+ * 用户Dao实现
+ * @author Administrator
+ * @date 2016年5月8日	
+ *
+ */
 public class UserDaoImpl extends BaseDao implements UserDao {
 	
 	public void addUser(User user) {
